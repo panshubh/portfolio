@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/newbg.png") top right no-repeat;
+  background: url("../img/newbg1.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.582);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -288,11 +288,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 400;
   line-height: 56px;
-  color: #45505b;
+  color: #10223d;
 }
 
 #hero p {
-  color: #45505b;
+  color: #10223d;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;

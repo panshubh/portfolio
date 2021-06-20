@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #f2f3f598;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -262,12 +262,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/newtest.png") top right no-repeat;
+  background: url("../img/newtes.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/*.fullscreen-video-wrap{
+.fullscreen-video-wrap{
   position: absolute;
   top:0;
   left:0;
@@ -287,25 +287,25 @@ h1, h2, h3, h4, h5, h6 {
   position:absolute;
   top:0;
   left:0;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.70);
   opacity:0.60;
 }
-*/
+
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
   }
 }
 
-#hero:before {
+/*#hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.603);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+}*/
 
 #hero h1 {
   margin: 0;
@@ -461,6 +461,13 @@ section {
   #about .content p {
     text-align: center;
   }
+}
+
+.btn{
+  background: #fff;
+  border-color: #f77b52;
+  border-radius: 2px;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------

@@ -463,13 +463,6 @@ section {
   }
 }
 
-.btn{
-  background: #fff;
-  border-color: #f77b52;
-  border-radius: 2px;
-  text-decoration: none;
-}
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -665,7 +658,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/*.portfolio-details {
   padding-top: 40px;
 }
 
@@ -725,8 +718,73 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}*/
+
+.header-container{
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin:auto;
+  text-align:center;
 }
 
+.header-content h1{
+  font-size:40px;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 1px;;
+}
+
+.header-content p{
+  font-size:18px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.other-content-container{
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.other-content h2{
+  font-size:20px;
+  text-align: justify;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.other-content p{
+  font-size:18px;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+.code-wrapper{
+  position:relative;
+  width: relative;
+  height:inherit;
+}
+
+.code-wrapper pre{
+  background-color: rgb(238, 238, 238);
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.button{
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.btn{
+  color: #fff;
+  background: #f77b52;
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
